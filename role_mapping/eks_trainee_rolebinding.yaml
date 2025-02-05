@@ -8,7 +8,7 @@ rules:
     verbs: ["get", "list"]
   - apiGroups: ["apps"]
     resources: ["deployments" ,"daemonsets" ,"statefulsets" ,"replicasets"]
-    verbs: ["get", "list", "create"]
+    verbs: ["get", "list"]
   - apiGroups: [ "batch"]
     resources: ["jobs"]
     verbs: ["get", "list"]
