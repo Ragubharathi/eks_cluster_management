@@ -5,9 +5,9 @@ metadata:
 spec:
   selector:
     app: my-app
-    version: green  # Initially routing traffic to Blue
+    version: blue  # Initially routing traffic to Blue
   ports:
     - protocol: TCP
       port: 80
       targetPort: 80
-  type: ClusterIP
+  type: LoadBalancer
