@@ -5,7 +5,7 @@ metadata:
 rules:
   - apiGroups: [""]
     resources: ["nodes", "namespaces", "pods"]
-    verbs: ["get", "list"]
+    verbs: ["get", "list", "create"]
   - apiGroups: ["apps"]
     resources: ["deployments" ,"daemonsets" ,"statefulsets" ,"replicasets"]
     verbs: ["get", "list"]
